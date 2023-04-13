@@ -1,0 +1,9 @@
+services:
+
+  tg_bot:
+    build: .
+    volumes:
+      - .:/app
+    # ports:
+    #   - 8081:8081
+    restart: always
